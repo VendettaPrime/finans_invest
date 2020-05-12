@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d375e171-4f15-494c-863a-6512997ee690">
+  <producedTypes>
+    <objectType typeId="5089cbbd-07b6-4516-91eb-2a8316cdfb26" valueTypeId="2b4542ad-eea5-45eb-82b0-a4dacdf79d4c"/>
+    <refType typeId="d9ef04cb-490c-4fb6-bf86-77e387f9c2e1" valueTypeId="1afe46bf-8ef4-4f61-a652-7f250d47736f"/>
+    <selectionType typeId="48139fd4-f922-434f-ab58-68d38240c838" valueTypeId="33c3888b-1717-41b7-91d3-44ebbd3dba7d"/>
+    <listType typeId="d5c92c4e-5197-4dd6-8568-df66dff3b31d" valueTypeId="1422ac7e-4ceb-49ef-bfb7-ada966882df8"/>
+    <managerType typeId="2da80421-b01b-4712-b8d4-46cd5e8800a8" valueTypeId="e1a3ec3f-bc68-4941-99df-cc78bdb2c932"/>
+  </producedTypes>
+  <name>Инвест_Вклады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вклады</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Инвест_Вклады.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Инвест_Вклады.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="603db44c-c079-43f6-a4a9-e820322b0def">
+    <name>Банк</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банк</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Инвест_Банки</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

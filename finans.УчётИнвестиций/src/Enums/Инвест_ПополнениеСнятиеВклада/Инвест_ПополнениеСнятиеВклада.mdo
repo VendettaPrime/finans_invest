@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dae4dd89-f476-4696-bdfd-71abb2a8557e">
+  <producedTypes>
+    <refType typeId="ada2a45f-c73f-4c3a-b12c-4e325d022e79" valueTypeId="d62365a6-846e-4ce1-969c-a78bbf0fa853"/>
+    <listType typeId="a9752f1b-239b-49e4-b7c7-cc92c47b3492" valueTypeId="89f7a654-0871-4a35-b401-823d2d6a311e"/>
+    <managerType typeId="835d040a-ff66-4496-80e8-36f0b85900e7" valueTypeId="8ee44fb0-4b68-4107-9b57-9c82cbe62871"/>
+  </producedTypes>
+  <name>Инвест_ПополнениеСнятиеВклада</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пополнение снятие вклада</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a2b054f8-9724-49e0-937e-471167c9f934">
+    <name>Пополнение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пополнение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cc09167a-c469-43d4-afd1-0134a40bf80d">
+    <name>Снятие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Снятие</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

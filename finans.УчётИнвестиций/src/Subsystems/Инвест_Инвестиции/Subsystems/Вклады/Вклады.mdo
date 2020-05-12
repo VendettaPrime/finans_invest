@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="998afcf8-44da-45c9-90ce-c838f51140d7">
+  <name>Вклады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вклады</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.Инвест_РаботаСВкладамиСервер</content>
+  <content>Role.Инвест_ДобавлениеИзменениеВкладов</content>
+  <content>Role.Инвест_ЧтениеВкладов</content>
+  <content>Catalog.Инвест_Банки</content>
+  <content>Catalog.Инвест_Вклады</content>
+  <content>Document.Инвест_ОткрытиеВклада</content>
+  <content>Document.Инвест_ЗакрытиеВклада</content>
+  <content>Document.Инвест_ПополнениеСнятиеВклада</content>
+  <content>Document.Инвест_НачислениеПроцентовПоВкладу</content>
+  <content>Enum.Инвест_ПополнениеСнятиеВклада</content>
+  <content>AccumulationRegister.Инвест_Вклады</content>
+  <parentSubsystem>Subsystem.Инвест_Инвестиции</parentSubsystem>
+</mdclass:Subsystem>

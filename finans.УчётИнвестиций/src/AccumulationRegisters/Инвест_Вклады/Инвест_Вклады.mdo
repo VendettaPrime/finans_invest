@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c418e25c-aedc-4be3-9236-fb508b71ac76">
+  <producedTypes>
+    <selectionType typeId="d0851996-af76-4550-8b19-57703a8ac86c" valueTypeId="972797f9-8983-4d25-8c2d-5b1f6ed1f341"/>
+    <listType typeId="07e64149-eb8f-434b-b6f0-e41f3b918be6" valueTypeId="c69d954c-b8ff-4a22-a3b6-024b5d7746fb"/>
+    <managerType typeId="c414ed50-d583-4a04-ab2e-760952b26e59" valueTypeId="96ac1b15-57ef-4d98-bf76-c41cc7e81242"/>
+    <recordSetType typeId="2c216cd2-f1b8-4755-85d4-d6babbed8593" valueTypeId="97a0ee19-0570-4b0b-b00f-4081268afe11"/>
+    <recordKeyType typeId="57b65735-f8af-4af9-8e0f-164c50a9eaea" valueTypeId="8a28d5d7-1f98-490a-96af-1198c050ec65"/>
+    <recordType typeId="b4c801e8-41e9-4a23-b6a9-34058835fb72" valueTypeId="839b2365-14bd-4263-b86f-d2619d964d5f"/>
+  </producedTypes>
+  <name>Инвест_Вклады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вклады</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="8aa26065-c441-4966-8ae5-071211965c10">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="6c408f0b-297b-4a4f-a01c-52859bf2c854">
+    <name>Вклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вклад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Инвест_Вклады</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

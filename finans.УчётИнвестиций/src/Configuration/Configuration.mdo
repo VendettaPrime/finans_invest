@@ -9,6 +9,7 @@
   <extension xsi:type="mdclassExtension:ConfigurationExtension">
     <defaultRunMode>Checked</defaultRunMode>
     <usePurposes>Checked</usePurposes>
+    <commandInterface>Extended</commandInterface>
     <defaultLanguage>Checked</defaultLanguage>
     <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
     <compatibilityMode>Checked</compatibilityMode>
@@ -27,7 +28,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>Vendetta</vendor>
-  <version>2020.05.12.001</version>
+  <version>2020.05.12.002</version>
   <updateCatalogAddress>http://downloads.v8.1c.ru/tmplts/</updateCatalogAddress>
   <useManagedFormInOrdinaryApplication>true</useManagedFormInOrdinaryApplication>
   <useOrdinaryFormInManagedApplication>true</useOrdinaryFormInManagedApplication>
@@ -48,4 +49,16 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Инвест_Инвестиции</subsystems>
+  <roles>Role.Инвест_ДобавлениеИзменениеВкладов</roles>
+  <roles>Role.Инвест_ЧтениеВкладов</roles>
+  <commonModules>CommonModule.Инвест_РаботаСВкладамиСервер</commonModules>
+  <catalogs>Catalog.Инвест_Банки</catalogs>
+  <catalogs>Catalog.Инвест_Вклады</catalogs>
+  <documents>Document.Инвест_ОткрытиеВклада</documents>
+  <documents>Document.Инвест_ЗакрытиеВклада</documents>
+  <documents>Document.Инвест_ПополнениеСнятиеВклада</documents>
+  <documents>Document.Инвест_НачислениеПроцентовПоВкладу</documents>
+  <enums>Enum.Инвест_ПополнениеСнятиеВклада</enums>
+  <accumulationRegisters>AccumulationRegister.Инвест_Вклады</accumulationRegisters>
 </mdclass:Configuration>
