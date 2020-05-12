@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35472f77-58fa-4b4d-a727-027e90101b07">
+  <name>Облигации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Облигации</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <parentSubsystem>Subsystem.Инвест_Инвестиции</parentSubsystem>
+</mdclass:Subsystem>

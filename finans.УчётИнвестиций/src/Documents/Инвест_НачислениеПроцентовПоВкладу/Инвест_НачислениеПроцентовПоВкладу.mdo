@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2869acb-4920-4115-bcf6-783630838b5e">
+  <producedTypes>
+    <objectType typeId="f7fe7b63-f59b-4e97-9314-8aa4d949e642" valueTypeId="6a03d4ec-5bc2-4a75-a82f-228e62b53e41"/>
+    <refType typeId="1ccdd49d-2a18-4ae4-bccd-772e9b689588" valueTypeId="911350bd-9a57-4d03-b24f-a1b8ea61c368"/>
+    <selectionType typeId="ce846c4a-5c7e-4e14-8558-13b12dffbcbf" valueTypeId="af916415-c811-40e6-9cc1-ce9520d259d4"/>
+    <listType typeId="a9853b83-3c67-41af-bdc3-e37ad9aa70cd" valueTypeId="1d4809bc-92d7-491c-a8c1-b878a7c758a4"/>
+    <managerType typeId="d43ba8df-a708-4cfc-9efe-9850f3e859d0" valueTypeId="9a00e3d8-a327-49e7-a976-730032b60ab2"/>
+  </producedTypes>
+  <name>Инвест_НачислениеПроцентовПоВкладу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начисление процентов по вкладу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Инвест_НачислениеПроцентовПоВкладу.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.Инвест_Вклады</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>

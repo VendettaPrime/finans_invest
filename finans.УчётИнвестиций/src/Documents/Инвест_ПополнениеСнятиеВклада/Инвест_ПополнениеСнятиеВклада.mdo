@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c53013be-91d1-4a0f-b8b3-6a1240879c2e">
+  <producedTypes>
+    <objectType typeId="987666ce-ceea-498f-ab95-df2524d84b21" valueTypeId="8e96cc07-2584-4c14-a7dc-22c8b56ae91d"/>
+    <refType typeId="9d605e7d-dba8-44a2-893c-ec494934c25d" valueTypeId="a133bfff-061e-4f92-aa17-f9eec7336b7a"/>
+    <selectionType typeId="03784eec-2e8f-4a59-a465-bbbfba7b6658" valueTypeId="6c85191b-76b5-4ac7-baf7-1bfff5cf8dd3"/>
+    <listType typeId="a06c88d0-40c6-4eb3-8410-54cff7dc1fd0" valueTypeId="1aead51a-a634-43a5-acef-f430150d5baa"/>
+    <managerType typeId="19f7e2aa-fd7d-40fb-99c1-b1f1da1c9215" valueTypeId="4aaf1784-83af-4bca-a7e5-03217c1c14e3"/>
+  </producedTypes>
+  <name>Инвест_ПополнениеСнятиеВклада</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пополнение/снятие вклада</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Инвест_ПополнениеСнятиеВклада.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.Инвест_Вклады</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>
