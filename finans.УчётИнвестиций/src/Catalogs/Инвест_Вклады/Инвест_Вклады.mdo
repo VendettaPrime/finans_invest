@@ -30,6 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Инвест_Вклады.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="603db44c-c079-43f6-a4a9-e820322b0def">
     <name>Банк</name>
     <synonym>
@@ -54,4 +55,87 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="b26b0467-db9f-47ab-86db-d56fdac70e7b">
+    <name>ДатаЗакрытияВклада</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата закрытия вклада</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="499e7061-715c-46fe-86e3-be5df1ce7cfa">
+    <name>ДатаОткрытияВклада</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата открытия вклада</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ab5f8292-b673-482f-8af0-3054bbec3679">
+    <name>КапитализацияПроцентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Капитализация процентов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="76fd6979-5c43-4d0e-8dcd-8c77440bc359">
+    <name>ПроцентнаяСтавка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процентная ставка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9f63700e-554f-4381-8d87-2a17f75c27b1">
+    <name>СрокВклада</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок вклада в месяцах</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="c73ca03f-c8fa-40f5-a417-5e0bd0a4b228">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

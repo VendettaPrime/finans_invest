@@ -26,4 +26,48 @@
   <registerRecords>AccumulationRegister.Инвест_Вклады</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="bf37ccee-7446-41fb-b021-eb95aec6d123">
+    <name>Банк</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банк</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Инвест_Банки</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e2425bd3-39bb-4ef4-83a4-dcfb0c38dd91">
+    <name>Вклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вклад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Инвест_Вклады</types>
+    </type>
+    <choiceParameterLinks>
+      <name>Отбор.Банк</name>
+      <field>Document.Инвест_ОткрытиеВклада.Attribute.Банк</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c908747f-46f1-4c7f-976e-6c1cdf46f038">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Document>
