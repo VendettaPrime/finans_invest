@@ -12,7 +12,6 @@
     <commandInterface>Extended</commandInterface>
     <defaultLanguage>Checked</defaultLanguage>
     <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
-    <compatibilityMode>Checked</compatibilityMode>
   </extension>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="6a29c7f5-c3d0-4de1-a8d4-009911b33f5f"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="57e1e1e2-d2c8-43ad-9847-b260ab6399c6"/>
