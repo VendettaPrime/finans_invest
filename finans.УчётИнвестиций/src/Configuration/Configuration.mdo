@@ -53,6 +53,7 @@
   <roles>Role.Инвест_ДобавлениеИзменениеВкладов</roles>
   <roles>Role.Инвест_ЧтениеВкладов</roles>
   <commonModules>CommonModule.Инвест_РаботаСВкладамиСервер</commonModules>
+  <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.Инвест_Банки</catalogs>
   <catalogs>Catalog.Инвест_Вклады</catalogs>
   <documents>Document.Инвест_ОткрытиеВклада</documents>
